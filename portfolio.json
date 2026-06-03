@@ -1,0 +1,10 @@
+{
+  "stocks": [],
+  "settings": {
+    "dart_api_key": "",
+    "send_kakao": true,
+    "send_gmail": true,
+    "gmail_to": "jisthex@gmail.com",
+    "briefing_language": "ko"
+  }
+}

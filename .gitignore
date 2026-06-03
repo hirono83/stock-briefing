@@ -1,0 +1,7 @@
+latest_briefing.json
+send_prompt.txt
+briefing.log
+launchd_stdout.log
+launchd_stderr.log
+__pycache__/
+*.pyc
