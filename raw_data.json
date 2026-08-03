@@ -1,0 +1,229 @@
+{
+  "date": "2026-08-03",
+  "stocks_count": 13,
+  "prices": [
+    {
+      "ticker": "298040.KS",
+      "name": "효성중공업",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "298040",
+      "query": "효성중공업",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "009150.KS",
+      "name": "삼성전기",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "009150",
+      "query": "삼성전기",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "042700.KQ",
+      "name": "한미반도체",
+      "exchange": "KOE",
+      "market": "KR",
+      "kr_code": "042700",
+      "query": "한미반도체",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "034020.KS",
+      "name": "두산에너빌리티",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "034020",
+      "query": "두산에너빌리티",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "062040.KQ",
+      "name": "산일전기",
+      "exchange": "KOE",
+      "market": "KR",
+      "kr_code": "062040",
+      "query": "산일전기",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "138080.KQ",
+      "name": "오이솔루션",
+      "exchange": "KOE",
+      "market": "KR",
+      "kr_code": "138080",
+      "query": "오이솔루션",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "161580.KQ",
+      "name": "필옵틱스",
+      "exchange": "KOE",
+      "market": "KR",
+      "kr_code": "161580",
+      "query": "필옵틱스",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "011070.KS",
+      "name": "LG이노텍",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "011070",
+      "query": "LG이노텍",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "234690.KQ",
+      "name": "녹십자웰빙",
+      "exchange": "KOE",
+      "market": "KR",
+      "kr_code": "234690",
+      "query": "녹십자웰빙",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "010120.KS",
+      "name": "LS ELECTRIC",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "010120",
+      "query": "LS ELECTRIC",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "059090.KQ",
+      "name": "미코",
+      "exchange": "KOE",
+      "market": "KR",
+      "kr_code": "059090",
+      "query": "미코",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "066570.KS",
+      "name": "LG전자",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "066570",
+      "query": "LG전자",
+      "error": "가격 조회 실패"
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "exchange": "KSC",
+      "market": "KR",
+      "kr_code": "000660",
+      "query": "SK하이닉스",
+      "error": "가격 조회 실패"
+    }
+  ],
+  "news": [
+    {
+      "ticker": "298040.KS",
+      "name": "효성중공업",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "009150.KS",
+      "name": "삼성전기",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "042700.KQ",
+      "name": "한미반도체",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "034020.KS",
+      "name": "두산에너빌리티",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "062040.KQ",
+      "name": "산일전기",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "138080.KQ",
+      "name": "오이솔루션",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "161580.KQ",
+      "name": "필옵틱스",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "011070.KS",
+      "name": "LG이노텍",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "234690.KQ",
+      "name": "녹십자웰빙",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "010120.KS",
+      "name": "LS ELECTRIC",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "059090.KQ",
+      "name": "미코",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "066570.KS",
+      "name": "LG전자",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "market": "KR",
+      "intl_news": [],
+      "sec_filings": [],
+      "dart_filings": []
+    }
+  ]
+}
