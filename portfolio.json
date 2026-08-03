@@ -1,5 +1,19 @@
 {
-  "stocks": [],
+  "stocks": [
+    {"ticker": "267270.KS", "name": "효성중공업",     "exchange": "KSC", "market": "KR", "kr_code": "267270", "query": "효성중공업"},
+    {"ticker": "009150.KS", "name": "삼성전기",       "exchange": "KSC", "market": "KR", "kr_code": "009150", "query": "삼성전기"},
+    {"ticker": "042700.KQ", "name": "한미반도체",     "exchange": "KOE", "market": "KR", "kr_code": "042700", "query": "한미반도체"},
+    {"ticker": "034020.KS", "name": "두산에너빌리티", "exchange": "KSC", "market": "KR", "kr_code": "034020", "query": "두산에너빌리티"},
+    {"ticker": "062040.KQ", "name": "산일전기",       "exchange": "KOE", "market": "KR", "kr_code": "062040", "query": "산일전기"},
+    {"ticker": "138080.KQ", "name": "오이솔루션",     "exchange": "KOE", "market": "KR", "kr_code": "138080", "query": "오이솔루션"},
+    {"ticker": "161580.KQ", "name": "필옵틱스",       "exchange": "KOE", "market": "KR", "kr_code": "161580", "query": "필옵틱스"},
+    {"ticker": "011070.KS", "name": "LG이노텍",       "exchange": "KSC", "market": "KR", "kr_code": "011070", "query": "LG이노텍"},
+    {"ticker": "234690.KQ", "name": "녹십자웰빙",     "exchange": "KOE", "market": "KR", "kr_code": "234690", "query": "녹십자웰빙"},
+    {"ticker": "010120.KS", "name": "LS ELECTRIC",    "exchange": "KSC", "market": "KR", "kr_code": "010120", "query": "LS ELECTRIC"},
+    {"ticker": "059090.KQ", "name": "미코",           "exchange": "KOE", "market": "KR", "kr_code": "059090", "query": "미코"},
+    {"ticker": "066570.KS", "name": "LG전자",         "exchange": "KSC", "market": "KR", "kr_code": "066570", "query": "LG전자"},
+    {"ticker": "000660.KS", "name": "SK하이닉스",     "exchange": "KSC", "market": "KR", "kr_code": "000660", "query": "SK하이닉스"}
+  ],
   "settings": {
     "dart_api_key": "",
     "send_kakao": true,
