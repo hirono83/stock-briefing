@@ -1,6 +1,6 @@
 {
   "stocks": [
-    {"ticker": "267270.KS", "name": "효성중공업",     "exchange": "KSC", "market": "KR", "kr_code": "267270", "query": "효성중공업"},
+    {"ticker": "298040.KS", "name": "효성중공업",     "exchange": "KSC", "market": "KR", "kr_code": "298040", "query": "효성중공업"},
     {"ticker": "009150.KS", "name": "삼성전기",       "exchange": "KSC", "market": "KR", "kr_code": "009150", "query": "삼성전기"},
     {"ticker": "042700.KQ", "name": "한미반도체",     "exchange": "KOE", "market": "KR", "kr_code": "042700", "query": "한미반도체"},
     {"ticker": "034020.KS", "name": "두산에너빌리티", "exchange": "KSC", "market": "KR", "kr_code": "034020", "query": "두산에너빌리티"},
