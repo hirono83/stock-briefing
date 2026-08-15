@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "stocks_count": 13,
   "prices": [
     {
@@ -9,7 +9,16 @@
       "market": "KR",
       "kr_code": "298040",
       "query": "효성중공업",
-      "error": "가격 조회 실패"
+      "price": 2954000,
+      "open": 3001000,
+      "high": 3013000,
+      "low": 2862000,
+      "volume": 38152,
+      "change": -63000,
+      "change_pct": -2.09,
+      "prev_close": 3017000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "009150.KS",
@@ -18,7 +27,16 @@
       "market": "KR",
       "kr_code": "009150",
       "query": "삼성전기",
-      "error": "가격 조회 실패"
+      "price": 1558000,
+      "open": 1593000,
+      "high": 1600000,
+      "low": 1511000,
+      "volume": 968103,
+      "change": 55000,
+      "change_pct": 3.66,
+      "prev_close": 1503000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "042700.KQ",
@@ -27,7 +45,16 @@
       "market": "KR",
       "kr_code": "042700",
       "query": "한미반도체",
-      "error": "가격 조회 실패"
+      "price": 229000,
+      "open": 239500,
+      "high": 240000,
+      "low": 223500,
+      "volume": 558447,
+      "change": 3000,
+      "change_pct": 1.33,
+      "prev_close": 226000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "034020.KS",
@@ -36,7 +63,16 @@
       "market": "KR",
       "kr_code": "034020",
       "query": "두산에너빌리티",
-      "error": "가격 조회 실패"
+      "price": 82600,
+      "open": 84100,
+      "high": 85700,
+      "low": 81000,
+      "volume": 2119063,
+      "change": 1700,
+      "change_pct": 2.1,
+      "prev_close": 80900,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "062040.KQ",
@@ -45,7 +81,16 @@
       "market": "KR",
       "kr_code": "062040",
       "query": "산일전기",
-      "error": "가격 조회 실패"
+      "price": 182500,
+      "open": 190400,
+      "high": 190400,
+      "low": 174600,
+      "volume": 344392,
+      "change": -5500,
+      "change_pct": -2.93,
+      "prev_close": 188000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "138080.KQ",
@@ -54,7 +99,16 @@
       "market": "KR",
       "kr_code": "138080",
       "query": "오이솔루션",
-      "error": "가격 조회 실패"
+      "price": 23600,
+      "open": 24750,
+      "high": 24750,
+      "low": 22300,
+      "volume": 315178,
+      "change": -1150,
+      "change_pct": -4.65,
+      "prev_close": 24750,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "161580.KQ",
@@ -63,7 +117,16 @@
       "market": "KR",
       "kr_code": "161580",
       "query": "필옵틱스",
-      "error": "가격 조회 실패"
+      "price": 29850,
+      "open": 30100,
+      "high": 30750,
+      "low": 29000,
+      "volume": 82423,
+      "change": -50,
+      "change_pct": -0.17,
+      "prev_close": 29900,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "011070.KS",
@@ -72,7 +135,16 @@
       "market": "KR",
       "kr_code": "011070",
       "query": "LG이노텍",
-      "error": "가격 조회 실패"
+      "price": 654000,
+      "open": 645000,
+      "high": 665000,
+      "low": 621000,
+      "volume": 267685,
+      "change": 39000,
+      "change_pct": 6.34,
+      "prev_close": 615000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "234690.KQ",
@@ -81,7 +153,16 @@
       "market": "KR",
       "kr_code": "234690",
       "query": "녹십자웰빙",
-      "error": "가격 조회 실패"
+      "price": 9250,
+      "open": 9300,
+      "high": 9310,
+      "low": 9020,
+      "volume": 73126,
+      "change": -10,
+      "change_pct": -0.11,
+      "prev_close": 9260,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "010120.KS",
@@ -90,7 +171,16 @@
       "market": "KR",
       "kr_code": "010120",
       "query": "LS ELECTRIC",
-      "error": "가격 조회 실패"
+      "price": 206500,
+      "open": 215000,
+      "high": 215500,
+      "low": 202000,
+      "volume": 752430,
+      "change": -7500,
+      "change_pct": -3.5,
+      "prev_close": 214000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "059090.KQ",
@@ -99,7 +189,16 @@
       "market": "KR",
       "kr_code": "059090",
       "query": "미코",
-      "error": "가격 조회 실패"
+      "price": 19350,
+      "open": 19800,
+      "high": 19840,
+      "low": 18770,
+      "volume": 228517,
+      "change": -150,
+      "change_pct": -0.77,
+      "prev_close": 19500,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "066570.KS",
@@ -108,7 +207,16 @@
       "market": "KR",
       "kr_code": "066570",
       "query": "LG전자",
-      "error": "가격 조회 실패"
+      "price": 215000,
+      "open": 212000,
+      "high": 225000,
+      "low": 206500,
+      "volume": 1598040,
+      "change": 8500,
+      "change_pct": 4.12,
+      "prev_close": 206500,
+      "currency": "KRW",
+      "date": "2026-08-15"
     },
     {
       "ticker": "000660.KS",
@@ -117,7 +225,16 @@
       "market": "KR",
       "kr_code": "000660",
       "query": "SK하이닉스",
-      "error": "가격 조회 실패"
+      "price": 1645000,
+      "open": 1695000,
+      "high": 1697000,
+      "low": 1626000,
+      "volume": 4295990,
+      "change": 52000,
+      "change_pct": 3.26,
+      "prev_close": 1593000,
+      "currency": "KRW",
+      "date": "2026-08-15"
     }
   ],
   "news": [
