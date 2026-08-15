@@ -1,86 +1,100 @@
 #!/usr/bin/env python3
-"""주식 가격 데이터 수집 - pykrx(한국) + yfinance(글로벌)"""
+"""주식 가격 데이터 수집
+- 국내(KR): 네이버 금융 폴링 API (yfinance/pykrx 불필요)
+- 해외(US 등): Yahoo Finance Chart API (requests 직접 호출)
+"""
 
 import json
-from datetime import date, timedelta
+import os
+from datetime import date, datetime
 from pathlib import Path
-import yfinance as yf
+
+import requests
 
 PORTFOLIO_PATH = Path(__file__).parent / "portfolio.json"
 
+_SESSION = requests.Session()
+_SESSION.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+_PROXY = os.environ.get("HTTPS_PROXY", "")
+_PROXIES = {"https": _PROXY, "http": _PROXY} if _PROXY else {}
 
-def load_portfolio() -> dict:
-    return json.loads(PORTFOLIO_PATH.read_text(encoding="utf-8"))
 
-
-def get_kr_price(kr_code: str) -> dict | None:
-    """pykrx로 한국 주식 당일 가격 조회"""
+def _naver_price(kr_code: str) -> dict | None:
+    """네이버 금융 폴링 API로 한국 주식 실시간 시세 조회"""
+    url = f"https://polling.finance.naver.com/api/realtime?query=SERVICE_ITEM:{kr_code}"
+    headers = {"Referer": "https://finance.naver.com/"}
     try:
-        from pykrx import stock as krx
-        today = date.today().strftime("%Y%m%d")
-        yesterday = (date.today() - timedelta(days=1)).strftime("%Y%m%d")
-
-        # 당일 데이터가 없을 수 있으므로 최근 5영업일 조회
-        df = krx.get_market_ohlcv_by_date(yesterday, today, kr_code)
-        if df is None or df.empty:
-            # 주말/공휴일이면 더 앞으로
-            from_date = (date.today() - timedelta(days=7)).strftime("%Y%m%d")
-            df = krx.get_market_ohlcv_by_date(from_date, today, kr_code)
-
-        if df is not None and not df.empty:
-            latest = df.iloc[-1]
-            prev = df.iloc[-2] if len(df) >= 2 else None
-            close = float(latest["종가"])
-            prev_close = float(prev["종가"]) if prev is not None else close
-            change = close - prev_close
-            change_pct = (change / prev_close * 100) if prev_close else 0
-            return {
-                "price": close,
-                "open": float(latest["시가"]),
-                "high": float(latest["고가"]),
-                "low": float(latest["저가"]),
-                "volume": int(latest["거래량"]),
-                "change": change,
-                "change_pct": round(change_pct, 2),
-                "currency": "KRW",
-                "date": df.index[-1].strftime("%Y-%m-%d"),
-            }
-    except Exception as e:
-        print(f"  pykrx 오류 ({kr_code}): {e}")
-    return None
-
-
-def get_yf_price(ticker: str) -> dict | None:
-    """yfinance로 글로벌 주식 가격 조회"""
-    try:
-        t = yf.Ticker(ticker)
-        hist = t.history(period="5d")
-        if hist.empty:
-            return None
-        latest = hist.iloc[-1]
-        prev = hist.iloc[-2] if len(hist) >= 2 else None
-        close = float(latest["Close"])
-        prev_close = float(prev["Close"]) if prev is not None else close
-        change = close - prev_close
+        r = _SESSION.get(url, headers=headers, proxies=_PROXIES, timeout=8)
+        r.raise_for_status()
+        areas = r.json()["result"]["areas"]
+        d = areas[0]["datas"][0]
+        prev_close = d.get("sv") or d.get("pcv") or d["nv"]
+        change = d["nv"] - prev_close
         change_pct = (change / prev_close * 100) if prev_close else 0
-
-        info = t.fast_info
-        currency = getattr(info, "currency", "USD") or "USD"
-
+        traded_at = d.get("localTradedAt") or ""
+        price_date = traded_at[:10] if traded_at else date.today().isoformat()
         return {
-            "price": close,
-            "open": float(latest["Open"]),
-            "high": float(latest["High"]),
-            "low": float(latest["Low"]),
-            "volume": int(latest["Volume"]),
+            "price": d["nv"],
+            "open": d.get("ov", d["nv"]),
+            "high": d.get("hv", d["nv"]),
+            "low": d.get("lv", d["nv"]),
+            "volume": d.get("aq", 0),
             "change": change,
             "change_pct": round(change_pct, 2),
-            "currency": currency,
-            "date": hist.index[-1].strftime("%Y-%m-%d"),
+            "prev_close": prev_close,
+            "currency": "KRW",
+            "date": price_date,
         }
     except Exception as e:
-        print(f"  yfinance 오류 ({ticker}): {e}")
-    return None
+        print(f"  네이버 API 오류 ({kr_code}): {e}")
+        return None
+
+
+def _yahoo_price(ticker: str) -> dict | None:
+    """Yahoo Finance Chart API로 글로벌 주식 시세 조회 (requests 직접 호출)"""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=5d"
+    try:
+        r = _SESSION.get(url, proxies=_PROXIES, timeout=10)
+        r.raise_for_status()
+        result = r.json()["chart"]["result"][0]
+        meta = result["meta"]
+        indicators = result["indicators"]["quote"][0]
+
+        closes = [c for c in indicators.get("close", []) if c is not None]
+        opens = [o for o in indicators.get("open", []) if o is not None]
+        highs = [h for h in indicators.get("high", []) if h is not None]
+        lows = [l for l in indicators.get("low", []) if l is not None]
+        volumes = [v for v in indicators.get("volume", []) if v is not None]
+        timestamps = result.get("timestamp", [])
+
+        if not closes:
+            return None
+
+        current = meta.get("regularMarketPrice") or closes[-1]
+        prev_close = meta.get("chartPreviousClose") or (closes[-2] if len(closes) >= 2 else current)
+        change = current - prev_close
+        change_pct = (change / prev_close * 100) if prev_close else 0
+        currency = meta.get("currency", "USD")
+
+        price_date = date.today().isoformat()
+        if timestamps:
+            price_date = datetime.fromtimestamp(timestamps[-1]).strftime("%Y-%m-%d")
+
+        return {
+            "price": round(current, 4),
+            "open": round(opens[-1], 4) if opens else current,
+            "high": round(highs[-1], 4) if highs else current,
+            "low": round(lows[-1], 4) if lows else current,
+            "volume": volumes[-1] if volumes else 0,
+            "change": round(change, 4),
+            "change_pct": round(change_pct, 2),
+            "prev_close": round(prev_close, 4),
+            "currency": currency,
+            "date": price_date,
+        }
+    except Exception as e:
+        print(f"  Yahoo Finance 오류 ({ticker}): {e}")
+        return None
 
 
 def fetch_all_prices(stocks: list[dict]) -> list[dict]:
@@ -93,11 +107,10 @@ def fetch_all_prices(stocks: list[dict]) -> list[dict]:
         name = s["name"]
 
         price_data = None
-        # 한국 주식: pykrx 우선, 실패 시 yfinance
         if market == "KR" and kr_code:
-            price_data = get_kr_price(kr_code)
+            price_data = _naver_price(kr_code)
         if price_data is None:
-            price_data = get_yf_price(ticker)
+            price_data = _yahoo_price(ticker)
 
         entry = {**s}
         if price_data:
@@ -105,7 +118,8 @@ def fetch_all_prices(stocks: list[dict]) -> list[dict]:
             arrow = "▲" if price_data["change"] >= 0 else "▼"
             sign = "+" if price_data["change"] >= 0 else ""
             cur = price_data["currency"]
-            print(f"  {name} ({ticker}): {cur} {price_data['price']:,.2f}  "
+            price_str = f"{price_data['price']:,.0f}" if cur == "KRW" else f"{price_data['price']:,.2f}"
+            print(f"  {name} ({ticker}): {cur} {price_str}  "
                   f"{arrow} {sign}{price_data['change_pct']:.2f}%")
         else:
             entry["error"] = "가격 조회 실패"
@@ -113,6 +127,10 @@ def fetch_all_prices(stocks: list[dict]) -> list[dict]:
 
         results.append(entry)
     return results
+
+
+def load_portfolio() -> dict:
+    return json.loads(PORTFOLIO_PATH.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
