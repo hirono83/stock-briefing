@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "stocks_count": 13,
   "prices": [
     {
@@ -18,7 +18,7 @@
       "change_pct": -1.28,
       "prev_close": 2891000,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "009150.KS",
@@ -36,7 +36,7 @@
       "change_pct": 0.0,
       "prev_close": 1400000,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "042700.KQ",
@@ -54,7 +54,7 @@
       "change_pct": -8.7,
       "prev_close": 253000,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "034020.KS",
@@ -72,7 +72,7 @@
       "change_pct": 1.0,
       "prev_close": 89900,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "062040.KQ",
@@ -90,7 +90,7 @@
       "change_pct": 1.22,
       "prev_close": 196200,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "138080.KQ",
@@ -108,7 +108,7 @@
       "change_pct": -1.47,
       "prev_close": 23850,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "161580.KQ",
@@ -126,7 +126,7 @@
       "change_pct": -6.29,
       "prev_close": 34200,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "011070.KS",
@@ -144,7 +144,7 @@
       "change_pct": -2.51,
       "prev_close": 557000,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "234690.KQ",
@@ -162,7 +162,7 @@
       "change_pct": -1.25,
       "prev_close": 9620,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "010120.KS",
@@ -180,7 +180,7 @@
       "change_pct": -0.73,
       "prev_close": 206000,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "059090.KQ",
@@ -198,7 +198,7 @@
       "change_pct": 6.4,
       "prev_close": 19360,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "066570.KS",
@@ -216,7 +216,7 @@
       "change_pct": -3.39,
       "prev_close": 206500,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     },
     {
       "ticker": "000660.KS",
@@ -234,7 +234,7 @@
       "change_pct": -2.21,
       "prev_close": 1853000,
       "currency": "KRW",
-      "date": "2026-09-12"
+      "date": "2026-09-13"
     }
   ],
   "news": [
