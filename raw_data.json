@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "stocks_count": 13,
   "prices": [
     {
@@ -9,16 +9,16 @@
       "market": "KR",
       "kr_code": "298040",
       "query": "효성중공업",
-      "price": 2854000,
-      "open": 2812000,
-      "high": 2860000,
-      "low": 2796000,
-      "volume": 20381,
-      "change": -37000,
-      "change_pct": -1.28,
-      "prev_close": 2891000,
+      "price": 2791000,
+      "open": 2785000,
+      "high": 2846000,
+      "low": 2735000,
+      "volume": 20235,
+      "change": -63000,
+      "change_pct": -2.21,
+      "prev_close": 2854000,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "009150.KS",
@@ -27,16 +27,16 @@
       "market": "KR",
       "kr_code": "009150",
       "query": "삼성전기",
-      "price": 1400000,
-      "open": 1360000,
-      "high": 1427000,
-      "low": 1356000,
-      "volume": 599185,
-      "change": 0,
-      "change_pct": 0.0,
+      "price": 1322000,
+      "open": 1355000,
+      "high": 1360000,
+      "low": 1318000,
+      "volume": 477481,
+      "change": -78000,
+      "change_pct": -5.57,
       "prev_close": 1400000,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "042700.KQ",
@@ -45,16 +45,16 @@
       "market": "KR",
       "kr_code": "042700",
       "query": "한미반도체",
-      "price": 231000,
-      "open": 241000,
-      "high": 241000,
-      "low": 231000,
-      "volume": 1109135,
-      "change": -22000,
-      "change_pct": -8.7,
-      "prev_close": 253000,
+      "price": 226000,
+      "open": 228000,
+      "high": 234500,
+      "low": 223500,
+      "volume": 514707,
+      "change": -5000,
+      "change_pct": -2.16,
+      "prev_close": 231000,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "034020.KS",
@@ -63,16 +63,16 @@
       "market": "KR",
       "kr_code": "034020",
       "query": "두산에너빌리티",
-      "price": 90800,
-      "open": 88700,
-      "high": 91100,
-      "low": 88000,
-      "volume": 2458087,
-      "change": 900,
-      "change_pct": 1.0,
-      "prev_close": 89900,
+      "price": 85600,
+      "open": 89800,
+      "high": 90400,
+      "low": 84900,
+      "volume": 3232566,
+      "change": -5200,
+      "change_pct": -5.73,
+      "prev_close": 90800,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "062040.KQ",
@@ -81,16 +81,16 @@
       "market": "KR",
       "kr_code": "062040",
       "query": "산일전기",
-      "price": 198600,
-      "open": 190400,
-      "high": 199200,
-      "low": 189700,
-      "volume": 237733,
-      "change": 2400,
-      "change_pct": 1.22,
-      "prev_close": 196200,
+      "price": 194700,
+      "open": 194000,
+      "high": 203000,
+      "low": 191800,
+      "volume": 291979,
+      "change": -3900,
+      "change_pct": -1.96,
+      "prev_close": 198600,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "138080.KQ",
@@ -99,16 +99,16 @@
       "market": "KR",
       "kr_code": "138080",
       "query": "오이솔루션",
-      "price": 23500,
-      "open": 22800,
-      "high": 24600,
-      "low": 22650,
-      "volume": 206104,
-      "change": -350,
-      "change_pct": -1.47,
-      "prev_close": 23850,
+      "price": 22750,
+      "open": 22600,
+      "high": 24300,
+      "low": 21900,
+      "volume": 411525,
+      "change": -750,
+      "change_pct": -3.19,
+      "prev_close": 23500,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "161580.KQ",
@@ -117,16 +117,16 @@
       "market": "KR",
       "kr_code": "161580",
       "query": "필옵틱스",
-      "price": 32050,
-      "open": 32200,
-      "high": 32650,
-      "low": 31700,
-      "volume": 283134,
-      "change": -2150,
-      "change_pct": -6.29,
-      "prev_close": 34200,
+      "price": 30650,
+      "open": 31150,
+      "high": 32150,
+      "low": 30300,
+      "volume": 216419,
+      "change": -1400,
+      "change_pct": -4.37,
+      "prev_close": 32050,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "011070.KS",
@@ -135,16 +135,16 @@
       "market": "KR",
       "kr_code": "011070",
       "query": "LG이노텍",
-      "price": 543000,
-      "open": 541000,
-      "high": 554000,
-      "low": 533000,
-      "volume": 158717,
-      "change": -14000,
-      "change_pct": -2.51,
-      "prev_close": 557000,
+      "price": 506000,
+      "open": 529000,
+      "high": 530000,
+      "low": 505000,
+      "volume": 172601,
+      "change": -37000,
+      "change_pct": -6.81,
+      "prev_close": 543000,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "234690.KQ",
@@ -153,16 +153,16 @@
       "market": "KR",
       "kr_code": "234690",
       "query": "녹십자웰빙",
-      "price": 9500,
-      "open": 9540,
-      "high": 9620,
-      "low": 9440,
-      "volume": 147284,
-      "change": -120,
-      "change_pct": -1.25,
-      "prev_close": 9620,
+      "price": 9420,
+      "open": 9450,
+      "high": 9940,
+      "low": 9350,
+      "volume": 120183,
+      "change": -80,
+      "change_pct": -0.84,
+      "prev_close": 9500,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "010120.KS",
@@ -171,16 +171,16 @@
       "market": "KR",
       "kr_code": "010120",
       "query": "LS ELECTRIC",
-      "price": 204500,
-      "open": 199500,
-      "high": 206500,
-      "low": 198700,
-      "volume": 261769,
-      "change": -1500,
-      "change_pct": -0.73,
-      "prev_close": 206000,
+      "price": 197500,
+      "open": 199800,
+      "high": 204500,
+      "low": 196800,
+      "volume": 310634,
+      "change": -7000,
+      "change_pct": -3.42,
+      "prev_close": 204500,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "059090.KQ",
@@ -189,16 +189,16 @@
       "market": "KR",
       "kr_code": "059090",
       "query": "미코",
-      "price": 20600,
-      "open": 19350,
-      "high": 20850,
-      "low": 18660,
-      "volume": 577741,
-      "change": 1240,
-      "change_pct": 6.4,
-      "prev_close": 19360,
+      "price": 19760,
+      "open": 20100,
+      "high": 21650,
+      "low": 19600,
+      "volume": 522511,
+      "change": -840,
+      "change_pct": -4.08,
+      "prev_close": 20600,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "066570.KS",
@@ -207,16 +207,16 @@
       "market": "KR",
       "kr_code": "066570",
       "query": "LG전자",
-      "price": 199500,
-      "open": 200500,
-      "high": 204500,
-      "low": 198600,
-      "volume": 715786,
-      "change": -7000,
-      "change_pct": -3.39,
-      "prev_close": 206500,
+      "price": 194900,
+      "open": 196000,
+      "high": 201000,
+      "low": 192600,
+      "volume": 509229,
+      "change": -4600,
+      "change_pct": -2.31,
+      "prev_close": 199500,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     },
     {
       "ticker": "000660.KS",
@@ -225,16 +225,16 @@
       "market": "KR",
       "kr_code": "000660",
       "query": "SK하이닉스",
-      "price": 1812000,
-      "open": 1773000,
-      "high": 1827000,
-      "low": 1768000,
-      "volume": 2620493,
-      "change": -41000,
-      "change_pct": -2.21,
-      "prev_close": 1853000,
+      "price": 1683000,
+      "open": 1707000,
+      "high": 1740000,
+      "low": 1678000,
+      "volume": 4000232,
+      "change": -129000,
+      "change_pct": -7.12,
+      "prev_close": 1812000,
       "currency": "KRW",
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     }
   ],
   "news": [
@@ -242,7 +242,32 @@
       "ticker": "298040.KS",
       "name": "효성중공업",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "Is Index Reclassification And A New Grid JV Altering The Investment Case For Quanta Services (PWR)?",
+          "summary": "In late June 2026, Quanta Services, Inc. was removed from several Russell value and midcap indexes while being added to the Russell Top 200, Russell 1000 Growth-Defensive, and Russell 1000 Defensive indexes, reflecting a reclassification toward larger-cap and more growth‑oriented benchmarks. Separately, Hyosung Heavy Industries announced a new U.S.-based gas circuit breaker joint venture with a Quanta subsidiary, expanding Quanta’s role in high-voltage grid equipment manufacturing and...",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/index-reclassification-grid-jv-altering-141350725.html",
+          "published": "2026-07-01T14:13:50Z",
+          "lang": "en"
+        },
+        {
+          "title": "Asian Growth Companies With High Insider Ownership April 2026",
+          "summary": "As global markets navigate a landscape marked by geopolitical tensions and rising inflation, Asia's economic resilience continues to capture investor attention. In this environment, companies with strong growth potential and significant insider ownership can offer unique opportunities, as they often indicate confidence from those closest to the business.",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-growth-companies-high-insider-043606349.html",
+          "published": "2026-04-27T04:36:06Z",
+          "lang": "en"
+        },
+        {
+          "title": "Global Growth Companies With High Insider Ownership",
+          "summary": "In the midst of heightened geopolitical tensions, inflation concerns, and volatile oil prices affecting global markets, investors are increasingly seeking stability and potential growth opportunities. Amidst this backdrop, companies with high insider ownership often attract attention as they may indicate a strong alignment between management and shareholder interests—an appealing trait when navigating uncertain economic conditions.",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/global-growth-companies-high-insider-093554358.html",
+          "published": "2026-03-25T09:35:54Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -250,7 +275,32 @@
       "ticker": "009150.KS",
       "name": "삼성전기",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "Samsung Electro-Mechanics Co Ltd (XKRX:009150) (Q2 2026) Earnings Call Highlights: ...",
+          "summary": "Strong Q2 results, driven by AI server and automotive MLCC demand, set the stage for a record-breaking Q3 as supply tightens and earnings momentum accelerates.",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electro-mechanics-co-ltd-130018137.html",
+          "published": "2026-07-30T13:00:18Z",
+          "lang": "en"
+        },
+        {
+          "title": "Jim Cramer sends strong signal to Nvidia stock investors amid rumors",
+          "summary": "On July 6, a research report landed and immediately started moving stocks. Japan's Ibiden dropped as much as 10%. Kingboard Laminates fell 18% in Hong Kong. Samsung Electro-Mechanics slid 11% in Seoul. All three count Nvidia as a major client. The report alleged manufacturing delays had pushed ...",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors-bullish-buy",
+          "published": "2026-07-07T21:03:00Z",
+          "lang": "en"
+        },
+        {
+          "title": "Jim Cramer Says Buy Nvidia as Chipmaker Rejects 2028 AI Delay Claims",
+          "summary": "Jim Cramer urges investors to buy Nvidia as the chipmaker disputes SemiAnalysis claims of AI rack delays to 2028.",
+          "source": "BeInCrypto",
+          "url": "https://beincrypto.com/jim-cramer-buy-nvidia-delay-claims/",
+          "published": "2026-07-06T22:30:00Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -258,7 +308,16 @@
       "ticker": "042700.KQ",
       "name": "한미반도체",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "Hanmi Semiconductor to enter US market with California subsidiary",
+          "summary": "The company’s San Jose facility is scheduled to open by end of year. The office will serve as an “integrated operational hub” providing technical support for other semiconductor companies’ fabs, Hanmi said.",
+          "source": "Manufacturing Dive",
+          "url": "https://www.manufacturingdive.com/news/hanmi-semiconductor-expand-san-jose-subsidiary-artificial-intelligence/820763/",
+          "published": "2026-05-21T11:00:00Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -266,7 +325,32 @@
       "ticker": "034020.KS",
       "name": "두산에너빌리티",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "NuScale Power Q2 Earnings Call Highlights",
+          "summary": "NuScale Power (NYSE:SMR) said it is preparing for commercial deployment of its small modular reactor technology, citing regulatory approvals, supplier agreements, fuel readiness and a strengthened liquidity position as demand rises for carbon-free power from data centers, industrial users and utilit",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "published": "2026-08-09T07:03:56Z",
+          "lang": "en"
+        },
+        {
+          "title": "NuScale Power Corporation Q4 2025 Earnings Call Summary",
+          "summary": "Moby summary of NuScale Power Corporation's Q4 2025 earnings call",
+          "source": "Moby",
+          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-nuscale-power-corporation-q4-2025-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+          "published": "2026-02-27T13:30:00Z",
+          "lang": "en"
+        },
+        {
+          "title": "Doosan selects ANDRITZ as supplier for pumped storage power plant in South Korea",
+          "summary": "Doosan Enerbility has selected ANDRITZ to supply the pump turbine units for the new Yeongdong pumped storage plant in Chungcheong Province, South Korea.",
+          "source": "Energy Global",
+          "url": "https://www.energyglobal.com/energy-storage/21012026/doosan-selects-andritz-as-supplier-for-pumped-storage-power-plant-in-south-korea/?yptr=yahoo",
+          "published": "2026-01-21T12:00:00Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -298,7 +382,32 @@
       "ticker": "011070.KS",
       "name": "LG이노텍",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "Amazon.com (AMZN) Triples AI Chip Orders As Robotaxi Supplier Network Expands",
+          "summary": "Amazon.com (NasdaqGS: AMZN) is expanding its partnership with Nvidia and has moved to triple its orders of Nvidia GPU chips to support rising demand for AI workloads on Amazon Web Services and internal projects. The expanded Nvidia deal reflects Amazon's continued use of third party GPUs alongside its own proprietary chip efforts for AI infrastructure. Separately, LG Innotek has been selected to supply advanced camera modules for Zoox's autonomous robotaxi, a company backed by Amazon. The LG...",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-triples-ai-180950072.html",
+          "published": "2026-08-29T18:09:50Z",
+          "lang": "en"
+        },
+        {
+          "title": "LG Innotek begins supplying camera modules to Zoox",
+          "summary": "The South Korean company strengthens its position in the global robotaxi supply-chain.",
+          "source": "Just Auto",
+          "url": "https://www.just-auto.com/news/lg-innotek-begins-supplying-camera-modules-to-zoox/",
+          "published": "2026-08-28T08:28:50Z",
+          "lang": "en"
+        },
+        {
+          "title": "SK Hynix Drops Near 11% as KOSPI Hits 37th Sidecar of 2026",
+          "summary": "SK Hynix shares dropped 10.95% in Seoul as the KOSPI triggered its 37th sidecar of 2026 during a chip stock selloff.",
+          "source": "BeInCrypto",
+          "url": "https://beincrypto.com/sk-hynix-drops-kospi-sidecar-2026/",
+          "published": "2026-07-16T01:59:30Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -314,7 +423,32 @@
       "ticker": "010120.KS",
       "name": "LS ELECTRIC",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "GE Vernova’s New JV Could Unlock its Next Big Growth Engine",
+          "summary": "GE Vernova Inc. (NYSE:GEV) announced on August 26 that it had established a joint venture with LS Electric to further strengthen its competitiveness in the high-voltage direct current sector. Announced at the CIGRE 2026 event in Paris, the partnership will allow the two companies to collaborate on South Korea’s voltage source converter-based HVDC projects. These […]",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-jv-could-unlock-013055550.html",
+          "published": "2026-08-29T01:30:55Z",
+          "lang": "en"
+        },
+        {
+          "title": "GEV Stock Reverses 6-Day Red Streak: Retail Eyes $1,000 Soon",
+          "summary": "GE Vernova announced a joint venture with LS Electric, a South Korean electric power equipment company, on Wednesday.",
+          "source": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/gev-stock-reverses-6-day-red-streak-retail-eyes-1-000-soon/cZY8st3RJpo",
+          "published": "2026-08-27T06:57:43Z",
+          "lang": "en"
+        },
+        {
+          "title": "Palantir CEO Reportedly Holds 'Secret' Meetings With South Korean Conglomerates: 'Almost Military Discipline'",
+          "summary": "Palantir Technologies Inc. (NASDAQ:PLTR) CEO Alex Karp reportedly held confidential meetings with top executives from major South Korean conglomerates to discuss AI strategy, as the software company bets on the growth of its platform. Secret AI Talks ...",
+          "source": "Benzinga",
+          "url": "https://finance.yahoo.com/news/palantir-ceo-reportedly-holds-secret-013109746.html",
+          "published": "2025-10-16T01:31:09Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -330,7 +464,32 @@
       "ticker": "066570.KS",
       "name": "LG전자",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "Marriott International (MAR) Tests Its Tech Push After LG Deal Puts Valuation In Focus",
+          "summary": "Marriott International (MAR) has entered a new phase in its long-running relationship with LG Electronics, co-developing a cloud-based guest room entertainment and technology platform that aims to modernize in room experiences across participating hotels. For investors, this LG partnership comes at a time when Marriott International’s share price has eased in the short term, with a 30 day share price return of down 6.86% and a 90 day share price return of down 14.27%. However, the 1 year...",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-international-mar-tests-tech-081332974.html",
+          "published": "2026-09-05T08:13:32Z",
+          "lang": "en"
+        },
+        {
+          "title": "Is Marriott (MAR) Quietly Redefining Its Tech Moat With LG’s New In‑Room Platform?",
+          "summary": "Marriott International recently announced that, working with LG Electronics, it has developed and begun piloting a cloud-based in-room entertainment and device-management platform across 40 hotels in the US and Canada as the first phase of a broader rollout. This collaboration not only modernizes guest-facing technology but also centralizes monitoring of in-room devices across Marriott’s portfolio, potentially improving service quality and operational efficiency at scale. We’ll now examine...",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/articles/marriott-mar-quietly-redefining-tech-170713797.html",
+          "published": "2026-09-04T17:07:13Z",
+          "lang": "en"
+        },
+        {
+          "title": "LG Electronics on Track for Recovery After Solid Earnings Growth",
+          "summary": "The consumer-electronics giant posted a double-digit increase in second-quarter net profit that narrowly missed market expectations.",
+          "source": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/lg-electronics-posts-solid-quarterly-net-profit-9c3e15f0?siteid=yhoof2&yptr=yahoo",
+          "published": "2026-07-30T09:43:00Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     },
@@ -338,7 +497,32 @@
       "ticker": "000660.KS",
       "name": "SK하이닉스",
       "market": "KR",
-      "intl_news": [],
+      "intl_news": [
+        {
+          "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning",
+          "summary": "AI stocks get hit as public debate erupts on the powerful technology.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
+          "published": "2026-09-14T09:36:37Z",
+          "lang": "en"
+        },
+        {
+          "title": "Samsung Stock Falls as $18.7 Billion Power Proposal Highlights AI Infrastructure Costs",
+          "summary": "Samsung rejected a massive electricity prepayment proposal as Korea confronts the power demands of expanding semiconductor production.",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-stock-falls-18-7-190452708.html",
+          "published": "2026-09-14T19:04:52Z",
+          "lang": "en"
+        },
+        {
+          "title": "Micron Stock Sinks Again. What AI Safety Fears Mean for Memory Chips.",
+          "summary": "Micron stock falls on concerns that AI bosses will pull back on spending but worries could be overdone.",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/micron-stock-price-memory-chips-ai-f9a51c2e?siteid=yhoof2&yptr=yahoo",
+          "published": "2026-09-14T18:35:00Z",
+          "lang": "en"
+        }
+      ],
       "sec_filings": [],
       "dart_filings": []
     }
