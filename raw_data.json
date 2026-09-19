@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "stocks_count": 13,
   "prices": [
     {
@@ -18,7 +18,7 @@
       "change_pct": 0.94,
       "prev_close": 2861000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "009150.KS",
@@ -36,7 +36,7 @@
       "change_pct": 4.36,
       "prev_close": 1330000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "042700.KQ",
@@ -54,7 +54,7 @@
       "change_pct": 4.21,
       "prev_close": 225500,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "034020.KS",
@@ -72,7 +72,7 @@
       "change_pct": 0.35,
       "prev_close": 85400,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "062040.KQ",
@@ -90,7 +90,7 @@
       "change_pct": 4.98,
       "prev_close": 201000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "138080.KQ",
@@ -108,7 +108,7 @@
       "change_pct": 2.22,
       "prev_close": 27000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "161580.KQ",
@@ -126,7 +126,7 @@
       "change_pct": 0.0,
       "prev_close": 31500,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "011070.KS",
@@ -144,7 +144,7 @@
       "change_pct": 4.73,
       "prev_close": 507000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "234690.KQ",
@@ -162,7 +162,7 @@
       "change_pct": -1.39,
       "prev_close": 9360,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "010120.KS",
@@ -180,7 +180,7 @@
       "change_pct": 3.22,
       "prev_close": 202000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "059090.KQ",
@@ -198,7 +198,7 @@
       "change_pct": -1.23,
       "prev_close": 20250,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "066570.KS",
@@ -216,7 +216,7 @@
       "change_pct": 0.4,
       "prev_close": 197900,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     },
     {
       "ticker": "000660.KS",
@@ -234,7 +234,7 @@
       "change_pct": 5.96,
       "prev_close": 1745000,
       "currency": "KRW",
-      "date": "2026-09-18"
+      "date": "2026-09-19"
     }
   ],
   "news": [
@@ -499,27 +499,27 @@
       "market": "KR",
       "intl_news": [
         {
+          "title": "Is Micron's 9% Dip a Warning Sign or Buying Opportunity?",
+          "summary": "Industrywide concerns about AI development affected Micron this week.",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/19/is-microns-9-dip-a-warning-sign-or-buying-opportun/",
+          "published": "2026-09-19T12:55:00Z",
+          "lang": "en"
+        },
+        {
+          "title": "Nvidia, SK Hynix send strong signal to Micron investors",
+          "summary": "With Micron’s earnings report looming, competitors have weighed in on the same pressure they’re all feeling.",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/nvidia-sk-hynix-warning-memory-prices-micron-investors",
+          "published": "2026-09-19T01:17:00Z",
+          "lang": "en"
+        },
+        {
           "title": "Intel vs. SK Hynix: Which Chip Stock Is Worth Chasing After This Week's Surge?",
           "summary": "Intel (INTC) and SK Hynix (SKHY) have been among this week's hottest semiconductor stocks as investors react to reports that the companies are exploring partnership opportunities.",
           "source": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-sk-hynix-chip-191000596.html",
           "published": "2026-09-18T19:10:00Z",
-          "lang": "en"
-        },
-        {
-          "title": "Micron Faces Growing China Threat. It’s a Bigger Problem for Memory-Chip Rivals.",
-          "summary": "CXMT—which is a specialist in dynamic random-access memory (DRAM)— intends to establish a NAND flash memory research-and-development production line at a new factory in Beijing, Reuters reported Friday, citing people familiar with the matter.  DRAM is short-term working memory that computers and artificial-intelligence hardware use to manage active data and running processes.  NAND flash memory is used for longer-term storage.",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/micron-stock-price-sk-hynix-memory-chips-china-573a7f1d?siteid=yhoof2&yptr=yahoo",
-          "published": "2026-09-18T17:36:00Z",
-          "lang": "en"
-        },
-        {
-          "title": "AI Memory Costs Continue to Explode — And It’s About to Get a Lot Worse",
-          "summary": "Intel's CEO just warned that memory prices have surged to levels that could reshape the economics of everything from budget smartphones to AI servers, and the worst may still be two years away.",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/18/ai-memory-costs-continue-to-explode-and-its-about-to-get-a-lot-worse/",
-          "published": "2026-09-18T16:02:54Z",
           "lang": "en"
         }
       ],
