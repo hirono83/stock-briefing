@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "stocks_count": 13,
   "prices": [
     {
@@ -18,7 +18,7 @@
       "change_pct": 0.94,
       "prev_close": 2861000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "009150.KS",
@@ -36,7 +36,7 @@
       "change_pct": 4.36,
       "prev_close": 1330000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "042700.KQ",
@@ -54,7 +54,7 @@
       "change_pct": 4.21,
       "prev_close": 225500,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "034020.KS",
@@ -72,7 +72,7 @@
       "change_pct": 0.35,
       "prev_close": 85400,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "062040.KQ",
@@ -90,7 +90,7 @@
       "change_pct": 4.98,
       "prev_close": 201000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "138080.KQ",
@@ -108,7 +108,7 @@
       "change_pct": 2.22,
       "prev_close": 27000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "161580.KQ",
@@ -126,7 +126,7 @@
       "change_pct": 0.0,
       "prev_close": 31500,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "011070.KS",
@@ -144,7 +144,7 @@
       "change_pct": 4.73,
       "prev_close": 507000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "234690.KQ",
@@ -162,7 +162,7 @@
       "change_pct": -1.39,
       "prev_close": 9360,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "010120.KS",
@@ -180,7 +180,7 @@
       "change_pct": 3.22,
       "prev_close": 202000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "059090.KQ",
@@ -198,7 +198,7 @@
       "change_pct": -1.23,
       "prev_close": 20250,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "066570.KS",
@@ -216,7 +216,7 @@
       "change_pct": 0.4,
       "prev_close": 197900,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     },
     {
       "ticker": "000660.KS",
@@ -234,7 +234,7 @@
       "change_pct": 5.96,
       "prev_close": 1745000,
       "currency": "KRW",
-      "date": "2026-09-19"
+      "date": "2026-09-20"
     }
   ],
   "news": [
@@ -499,27 +499,27 @@
       "market": "KR",
       "intl_news": [
         {
-          "title": "Is Micron's 9% Dip a Warning Sign or Buying Opportunity?",
-          "summary": "Industrywide concerns about AI development affected Micron this week.",
+          "title": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
+          "summary": "On September 8, 2026, Reuters reported that ASML Holding N.V. (NASDAQ:ASML) plans to work with major customers. It includes Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM), Nvidia, Intel, Samsung, and SK Hynix to adapt its next-generation “High NA” extreme ultraviolet lithography tools so they can print larger data-center chips. It addresses a current limitation where the […]",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/asml-asml-chip-giants-tsmc-214129428.html",
+          "published": "2026-09-20T21:41:29Z",
+          "lang": "en"
+        },
+        {
+          "title": "Better Artificial Intelligence Stock: Advanced Micro Devices vs. SK Hynix",
+          "summary": "SK Hynix boasts a 44% net margin and trades at 5.8x forward P/E, while AMD commands a 63x multiple despite stronger growth.",
           "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/19/is-microns-9-dip-a-warning-sign-or-buying-opportun/",
-          "published": "2026-09-19T12:55:00Z",
+          "url": "https://www.fool.com/coverage/better-buy/2026/09/20/better-artificial-intelligence-stock-advanced-micro-devices-vs-sk-hynix/",
+          "published": "2026-09-20T19:28:28Z",
           "lang": "en"
         },
         {
-          "title": "Nvidia, SK Hynix send strong signal to Micron investors",
-          "summary": "With Micron’s earnings report looming, competitors have weighed in on the same pressure they’re all feeling.",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/nvidia-sk-hynix-warning-memory-prices-micron-investors",
-          "published": "2026-09-19T01:17:00Z",
-          "lang": "en"
-        },
-        {
-          "title": "Intel vs. SK Hynix: Which Chip Stock Is Worth Chasing After This Week's Surge?",
-          "summary": "Intel (INTC) and SK Hynix (SKHY) have been among this week's hottest semiconductor stocks as investors react to reports that the companies are exploring partnership opportunities.",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-sk-hynix-chip-191000596.html",
-          "published": "2026-09-18T19:10:00Z",
+          "title": "China's CXMT says new memory-chip platform enters mass production",
+          "summary": "By Che Pan and Eduardo Baptista BEIJING, Sept 20 (Reuters) - Chinese DRAM chipmaker CXMT said on Sunday its fifth-generation technology platform had entered mass production, a claimed breakthrough",
+          "source": "Reuters",
+          "url": "https://finance.yahoo.com/technology/articles/chinas-cxmt-says-memory-chip-035403310.html",
+          "published": "2026-09-20T03:54:03Z",
           "lang": "en"
         }
       ],
