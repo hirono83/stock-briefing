@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-26",
   "stocks_count": 13,
   "prices": [
     {
@@ -18,7 +18,7 @@
       "change_pct": -0.31,
       "prev_close": 2901000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "009150.KS",
@@ -36,7 +36,7 @@
       "change_pct": 1.01,
       "prev_close": 1486000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "042700.KQ",
@@ -54,7 +54,7 @@
       "change_pct": 1.25,
       "prev_close": 240000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "034020.KS",
@@ -72,7 +72,7 @@
       "change_pct": -4.39,
       "prev_close": 86500,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "062040.KQ",
@@ -90,7 +90,7 @@
       "change_pct": 0.0,
       "prev_close": 205000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "138080.KQ",
@@ -108,7 +108,7 @@
       "change_pct": 1.41,
       "prev_close": 28300,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "161580.KQ",
@@ -126,7 +126,7 @@
       "change_pct": 1.24,
       "prev_close": 32150,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "011070.KS",
@@ -144,7 +144,7 @@
       "change_pct": -1.11,
       "prev_close": 542000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "234690.KQ",
@@ -162,7 +162,7 @@
       "change_pct": 0.45,
       "prev_close": 8930,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "010120.KS",
@@ -180,7 +180,7 @@
       "change_pct": -2.36,
       "prev_close": 212000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "059090.KQ",
@@ -198,7 +198,7 @@
       "change_pct": -0.22,
       "prev_close": 22600,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "066570.KS",
@@ -216,7 +216,7 @@
       "change_pct": -2.77,
       "prev_close": 216500,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "ticker": "000660.KS",
@@ -234,7 +234,7 @@
       "change_pct": 1.25,
       "prev_close": 1840000,
       "currency": "KRW",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     }
   ],
   "news": [
@@ -499,27 +499,27 @@
       "market": "KR",
       "intl_news": [
         {
-          "title": "Chip Stocks Drop After Six-Day Climb For SOX Index",
-          "summary": "The Philadelphia semiconductor index, known as SOX, slid Wednesday as chip stocks took a breather after a six-day climb.",
+          "title": "Dow Jones Futures: Growth Shrugs Off Surging Yields, But Trump Rejects Iran Deal; Micron, SpaceX, Tesla Eye Buy Points",
+          "summary": "Growth stocks have shrugged off Treasury yields, while Micron, SpaceX and Tesla are near buy points with big news due. Trump rejects an Iran deal.",
           "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/chip-stocks-drop-after-six-day-climb-for-sox-index/?src=A00220&yptr=yahoo",
-          "published": "2026-09-23T20:25:45Z",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-growth-stocks-shrug-off-surging-yields-micron-spacex-tesla-economic-data/?src=A00220&yptr=yahoo",
+          "published": "2026-09-26T17:43:58Z",
           "lang": "en"
         },
         {
-          "title": "SK Hynix Falls 3% Despite Wolfe Research Lifting Its Target to $250; SanDisk Drops 3%, Micron Slides 2%",
-          "summary": "Wolfe Research just raised its SK Hynix target by 25% and reiterated its bullish outlook, yet the stock is sinking anyway alongside the broader memory sector, raising an uncomfortable question about whether analyst optimism has lost its power to move these shares.",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/23/sk-hynix-falls-3-despite-wolfe-research-lifting-its-target-to-250-sandisk-drops-3-micron-slides-2/",
-          "published": "2026-09-23T18:20:27Z",
+          "title": "SK Hynix (KOSE:A000660) Forms AI Focused Venture Capital Arm",
+          "summary": "SK hynix (KOSE:A000660) has launched a dedicated corporate venture capital arm branded \"SK hynix Ventures\" focused on the global AI ecosystem. The new unit is intended to pursue partnerships and investments with AI focused startups across areas such as computing, data centers, and system software. Management signals that SK hynix Ventures will target emerging technologies that could support the group's long term semiconductor and AI roadmap. SK hynix Ventures is one step in the story, since...",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-kose-a000660-forms-010902805.html",
+          "published": "2026-09-26T01:09:02Z",
           "lang": "en"
         },
         {
-          "title": "Samsung Jumps 3.3% Despite China's New DRAM Production Milestone",
-          "summary": "CXMT's mobile chips challenge Samsung across both component sales and the smartphone supply chain.",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-jumps-3-3-despite-181513922.html",
-          "published": "2026-09-23T18:15:13Z",
+          "title": "SK Hynix (SKHY) Weighs a U.S. NAND Plant. Would Lower China Risk Justify the Cost?",
+          "summary": "On September 18, 2026, Reuters reported that SK hynix Inc. (NASDAQ:SKHY)’s US subsidiary Solidigm is considering building a NAND flash memory chip factory in the United States, with upstate New York emerging as a leading candidate, as the company faces growing pressure from the Trump administration to expand domestic semiconductor manufacturing. The project would be […]",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/sk-hynix-skhy-weighs-u-003823844.html",
+          "published": "2026-09-26T00:38:23Z",
           "lang": "en"
         }
       ],
