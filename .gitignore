@@ -3,5 +3,6 @@ send_prompt.txt
 briefing.log
 launchd_stdout.log
 launchd_stderr.log
+raw_data.json
 __pycache__/
 *.pyc
